@@ -29,10 +29,10 @@ const HeroSection = () => {
         </div>
 
         {/* Heading */}
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-light leading-[1.05] tracking-tight text-foreground mb-8">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight text-foreground mb-8">
           The AI agency that
           <br />
-          brings <em className="text-accent font-light">autonomy</em> to
+          brings <em className="text-accent font-normal italic">autonomy</em> to
           <br />
           complexity.
         </h1>
