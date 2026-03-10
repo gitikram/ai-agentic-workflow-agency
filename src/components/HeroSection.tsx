@@ -3,7 +3,7 @@ import { Sparkles } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background pt-28">
       {/* Video background */}
       <video
         autoPlay
