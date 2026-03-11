@@ -5,6 +5,7 @@ import IntegrationsSection from "@/components/IntegrationsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
 import Footer from "@/components/Footer";
+import CTABanner from "@/components/CTABanner";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <IntegrationsSection />
       <TestimonialsSection />
       <PricingSection />
+      <CTABanner />
       <Footer />
     </div>
   );
