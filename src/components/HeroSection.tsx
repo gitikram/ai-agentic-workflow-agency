@@ -12,7 +12,7 @@ const HeroSection = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover opacity-70"
       >
-        <source src="/videos/hero-bg.mp4" type="video/mp4" />
+        <source src={`${import.meta.env.BASE_URL}videos/hero-bg.mp4`} type="video/mp4" />
       </video>
 
       {/* Overlay */}
