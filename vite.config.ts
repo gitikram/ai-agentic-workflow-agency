@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/ai-agentic-workflow-agency/",
+  base: mode === 'production' ? "/ai-agentic-workflow-agency/" : "/",
   server: {
     host: "::",
     port: 8080,
